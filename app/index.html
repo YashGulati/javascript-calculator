@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Yash JavaScript Calculator</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <div id="container">
+    <div id="calculator">
+      <p>Yash JavaScript Calculator</p>
+      <input type="text " id="ansBox" readonly="readonly" maxlength="5" />
+      <table id="buttons">
+        <tr>
+          <td><input type = "button" value="AC" onclick="allClear();" /></td>
+          <td><input type = "button" value="CE" onclick="poper();" /></td>
+          <td><input type = "button" value="%" onclick="appModulo();" /></td>
+          <td><input type = "button" value="/" onclick="appSlash();" /></td>
+        </tr>
+        <tr>
+        <td><input type = "button" value="7" onclick="appSeven();" />  </td>
+        <td><input type = "button" value="8" onclick="appEight();" />  </td>
+        <td><input type = "button" value="9" onclick="appNine();" />  </td>
+        <td><input type = "button" value="*" onclick="appMul();" /></td>
+        </tr>
+        <tr>
+          <td><input type = "button" value="4" onclick="appFour();" />  </td>
+          <td><input type = "button" value="5" onclick="appFive();" />  </td>
+          <td><input type = "button" value="6" onclick="appSix();" />  </td>
+          <td><input type = "button" value="-" onclick="appMinus();" /></td>
+        </tr>
+        <tr>
+          <td><input type = "button" value="1" onclick="appOne();" />  </td>
+          <td><input type = "button" value="2" onclick="appTwo();" />  </td>
+          <td><input type = "button" value="3" onclick="appThree();" />  </td>
+          <td><input type = "button" value="+" onclick="appPlus();" /></td>
+        </tr>
+        <tr>
+          <td><input type = "button" value="." onclick="appPoint();" /></td>
+          <td><input type = "button" value="0" onclick="appZero();" /></td>
+          <td><input type = "button" value="00" onclick="appDzero();" /></td>
+        <td><input type = "button" value="=" onclick="ans();" /></td>
+      </tr>
+      </table>
+    </div>
+  </div>
+<script type="text/javascript" src="script.js" > </script>
+</body>
+</html>
