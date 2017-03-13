@@ -1,4 +1,9 @@
-// compileCompressed: style.css
+
+=center()
+  left: 50%
+  top: 50%
+  transform: translate(-50%,-50%)
+
 *
   margin: 0
   color: #ebebeb
@@ -7,18 +12,24 @@ body
   text-align: center
   font-size: 1.3em
   font-family: verdana
-#container
-  margin: 0 auto
-  background-color: #8899AA
-  width: 25vw
-  height: 55vh
-  #ansBox
-    background-color: #ebebeb
-    border: 0
-    height: 2em
-    width: 80%
-  #buttons
-    margin: 0 auto
+  background: linear-gradient(#648880, #293f50)
+  background-attachment: fixed
+  #calculator
+    position: absolute
+    +center()
+
+    background-color: #8899AA
+    // width: 25vw
+    // height: 55vh
+    height: 500px
+    width: 500px
+    #ansBox
+      background-color: #ebebeb
+      border: 0
+      height: 2em
+      width: 80%
+    #buttons
+      margin: 0 auto
 td>input
   height: 5vh
   width: 5vw

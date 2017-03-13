@@ -19,10 +19,15 @@
   "devDependencies": {
     "browser-sync": "^2.18.2",
     "browserify": "^13.1.1",
+    "connect-livereload": "^0.6.0",
     "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.1",
     "gulp-sass": "^2.3.2",
     "gulp-uglify": "^2.0.0",
     "node-watch": "^0.4.1",
     "uglify": "^0.1.5"
+  },
+  "dependencies": {
+    "express": "^4.15.2"
   }
 }
